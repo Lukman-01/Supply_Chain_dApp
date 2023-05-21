@@ -1,24 +1,184 @@
 # Supply_Chain_dApp
-#Supply Chain White Papper
+                            # Supply Chain White Papper
 
-#What is the supply chain?
+# What is the supply chain?
 
-Supply chain is a great use case for blockchain technology. The idea behind supply chain is that it is the path that products or services even take from the producer all the way to the consumer. It's rare that there's one organization that controls all the different components. So what are the components? If you start with a producer, let's say it's a farmer, and this farmer is growing corn, that farmer may have started off taking the corn and maybe even driving up to the end of the driveway and having a sign saying, hey, buy corn here. It's so much per bushel, or however big you want to package everything. And it's just a point to point. So basically if someone drives by and stops and says, "Hey, you know what? I want some corn." You have the producer selling directly to the consumer. All right, that's easy. It's no big deal at all. You exchange money and you get the corn. But you have a very limited number of people you can sell to. So the next step may be to go to a farmer's market. So then you load all the corn up in a big pickup truck and you drive to the farmer's market and you rent a booth and you sit there all day and lots of people come by, but you're still point to point. You have the producer talking directly to the consumer. So the next step may be, let's say there's someone who walks around and looks at all the different farmers that are selling corn and says to each one of the farmers, "Hey, I'll tell you what. How about if I buy your corn and I'll create and rent a big booth here, and then I'll just sell your corn for you." Well in that case, now you have a middleman. And of course the middleman wants to make some money and so the middleman is going to take a little bit of money from the farmer, increase the price, and sell the corn probably for more than the farmer would sell the corn because he has to make money as well. Or he's going to give the farmer less money because it's easier. He doesn't have to sit there at the farmer's market all day long. So that's the first phase of a supply chain. And then of course it goes farther and farther with more and more middlemen 'til you get to what we have today. Today, we walk into a supermarket and we pick up corn. Well, that corn basically came from a warehouse. The warehouse then got it from probably another warehouse that several states or maybe even countries away, eventually got that corn from the original farmer. But the farmer has no idea who's going to buy the corn and the person who buys the corn has no idea who actually planted the seeds that became the corn later on. So the idea of supply chain is tracking this whole complex process and it works well with a blockchain. So when you look at large supply chains, it's very rare that one organization owns all the different pieces because you've got the producers, you have the shippers, these carriers that move things from one place to another, you have intermediate warehouses and then you have delivery to the final retail outlet and so it's rarely one organization. Normally you have a consortium of organizations and they're communicating and exchanging all this data and information about shipping things back and forth. And the ownership of the corn changes from the farmer to the carrier, to the warehouser, to the wholesaler, to the retailer, and finally to the consumer. How do you keep track of all that? And how can you take or make it simpler so that all these intermediaries aren't making the price higher at every level because really that's what's happening. When you go pick up a piece of corn or an ear of corn at your supermarket, you're paying a lot of people along the supply chain. Okay. So the chain in the supply chain is simply all these entities that pass a product from one place to another, until it finally comes to the final consumer. All right. So let's look at some examples. You've talked about what supply chain is. So how does this work in real life? Here's one example. This is Certified Origins Italia. Certified Origins is a company that prides themselves on creating very high quality food that's simple and traceable. In other words, they are going to provide food to their consumers that meet high quality standards. And one of their product lines is premium olive oil. So think about that. Premium olive oil from Italy. Really, really good stuff. So they want to ensure or assure their customers that you can trust where this food came from. So how do they do that? They have a very complex supply chain that tracks the acquisition of the olives all the way through the delivery to the final consumer. So that's one supply chain where you're interested because you don't want to pay a lot of money for, what's supposed to be a really good bottle of olive oil, if you don't have the assurance that what you're getting is really what you're paying for. But supply chain is not just about food. There's lots of other areas that benefit from this structured approach to getting stuff to the right place at the right time. For example, whenever a natural disaster occurs, one of the first things that relief agencies want and need to do after the initial disaster is over, is get to the victims and bring them goods and services and help them recover. However, in some cases, the disaster is so horrific that it makes it difficult for the supply chain to operate properly. And that's exactly what happened with hurricane Dorian. It threatened the supply chains needed for recovery. Because remember the supply chain is all about the delivery mechanism including carriers and warehouses and people on the ground. And whenever a hurricane hits, it may damage the physical properties and the physical ability to continue with a normal supply chain. So you may be wondering how blockchain can possibly help in recovery efforts after a hurricane. Well, that's where we're leading up to. It's important to understand what supply chain is all about and what the needs are. So in the next episode, let's look at some of the obstacles that we run into with traditional supply chain implementations, and how blockchain may be able to help us to address each one of those.
-
-
-
-
-
-#Supply chain challenges and blockchain solutions
-- Let's take a look at some classic issues or challenges, with most supply chain implementations. Supply chain by itself, typically involves many organizations or at least several organizations. So the coordination of activity and data, is always going to pose challenges. First and foremost is the lack of transparency. Whenever you have multiple organizations transferring goods and it changing data, you can't always see the data from other organizations. Most organizations let's say the warehouse, which is right in the middle of the supply chain, probably has their own siloed data system. They may can take input from both sides and produce output, but their data is hidden somewhere inside their own databases. And most people can't just look into another company's databases and find the data they need. So the data is not very transparent. Only parts of the data will be released, based on what that organization is willing to let somebody else see. Along those lines, is the lack of traceability. If you don't have very transparent data across the entire chain, it makes it difficult to trace where something actually is in process or where it has been. It's difficult to back trace all the way back to an original producer with legacy separate systems. Because again, there's no direct chain or no cohesive chain all the way through the process. Also, every transfer from one physical location to another, may encounter some sort of time lag. Because if you look at the producers, you have warehouses, and then you have wholesale warehouses and retailers, at every step of the chain, you have trucks that are probably moving goods from one place to another. When you do that, you're not going to move just one piece of good or one bushel of corn from one warehouse to another, you're going to wait until you have a truckload. So, some of the goods may have to sit and wait for some period of time, until you get a batch of goods that are ready to move. So we had this time lag and the data may or may not flow with the exact same timeframe of the actual physical products. Because you know, your truck leaves, at what point do you release the data to say, hey, these products were just now shipped out? It may be that night. It may be in a batch process. So you had these little time lags. Well, we talk a lot about data and siloed data, since the data doesn't move all in one big record, each entity is probably only going to release just the data that they want to release and save some other data for internal processing. So that means, that at every step of the process, the data may change or maybe you add some data, or maybe you won't release all the data to the next phase. So, if you move, it's kind of like that old game, you know, telling a secret. Ever done that? You sit in a circle and you basically whisper something in someone's ear, and then they whisper it to the other person and it goes all the way around the circle. And when it comes back to you, the message is totally different most of the time than you started out with. And the reason for that is that in translation, you'll add some words, you'll change some words, and maybe you drop some of the meaning. And the same thing happens in data that's transferred from point to point. And just to kind of pull everything together, we also have non-standard data going from place to place and non-standard access. Which means that there's no convenient way to look at the status for different types of organizations. It's very difficult to have a one-stop shopping, like one mobile app to say, where is my olive oil? And when was it shipped out of Italy? It's very difficult to do that, if you have a different organization handling each step of the fate or a step of the process. Here's the quick example. If you want to track a package that was shipped to you, let's say you bought some new running shoes and you want to know when they're going to arrive. Well, how do you find out the status of that package? Well, it depends. If you bought it from amazon.com, maybe you can find out from their site, but if you bought it from somebody else, you have to go to another site. And once the product is shipped, how do you find a tracking number? Well, if it's shipped via USPS, you go to their website. If it was FedEx, you go to FedEx's site. So you get the idea. There's non-standard status tracking. Blockchain can help address all these issues. Let's see how. First and foremost, lack of transparency. When you register each phase or each movement of a product or service on a blockchain, you can see every step of the way it's all there. The data is laid out in front of everybody. That also gives us traceability. Since there's no central authority, all the transactions are put side by side and you can link, or the... actually the transactions are already linked together. And so you can trace both directions. That means you can figure out where your product is, any one point in time, and you can take the product even after you purchase it, and trace all the way back to the original producer. So it gives you a lot of power. It also can help reduce the transfer time lag. Smart contracts can make on demand decisions that limits human interactions. It also reduces human errors, and you don't have to wait for data to be processed during a humans work schedule. In other words, it can happen at any time 24/7, and just move ahead because the smart contracts are making all the decisions, not people. Also, translation data loss. All right, so if you're putting the same data on the blockchain at every step of the process, you're not having to translate data between disparate data systems. Everybody is using the smart contract interface, to move the data along. And in fact, it's the smart contracts that are moving the data along. So, you don't have to worry about differences from each participant in the supply chain. And then finally non-standard and unavailable status tracking. That's been solved as well. All the information is available on the blockchain, and you're querying one blockchain. And you can figure out where your product is and where your product has been. So in all cases and all of the standard challenges for supply chain, blockchain solves each and everyone.
-
-
-
-#Blockchain solution examples
-- Wow, it sounds like blockchain is almost too good to be true. Blockchain solves every supply chain problem invented by man. Well, maybe not every problem, but blockchain does go a long way to solving each one of the challenges that you just learned about. Let's take a look at how a couple of companies have actually implemented blockchain to solve those challenges. In an earlier episode, we talked about Certified Origins Italia, and if you recall, they produce and sell high quality extra-virgin olive oil. So they decided they needed some way to really boost their consumer confidence, and in fact, if you'll notice the highlighted section down here, I thought this was interesting, accusations of fraud in the olive oil industry, that is selling inauthentic, cheap or adulterated olive oil as EVOO, are rife. So I didn't realize that it was that big of a deal, but apparently if you want to buy high quality EVOO, it's not really clear how you can trust that you're buying real high quality EVOO. So Certified Origins Italia went to Oracle. Oracle is very large in the blockchain space, especially in enterprise blockchain, and asked them to help build a solution. And they did exactly that. So if you go to this address, you can read the article about how successful blockchain has been in providing a high level of assurance to Certified Origins Italia's customers, where they can use a mobile app and they can trace every bottle of olive oil right back to the point of origin. And all they do is they just scan the code that's on the bottle of olive oil and it accesses data from the blockchain and gives them assurance that they're buying what they think they're buying. Let's look at another example. We also talked about disaster recovery. So here's an example of disaster recovery after Hurricane Dorian. There's a Bahama blockchain company that's raising crypto to fund Hurricane Dorian relief. So if you read through this article, it's very interesting. PO8, which is a blockchain company that is headquartered in the Bahamas, decided to get involved because their home, the place where they're located, was hit by this really large hurricane and they needed to help fund the relief efforts. So they decided to roll up their sleeves and put their money where their mouths are. So PO8 is an interesting company. Let's take a quick look at who they are. PO8 is a blockchain, well, they say a blockchain ecosystem that makes marine archeology and treasure hunting more inclusive and de-centralized. Basically what happens is you can invest in the company and you do that by buying a PO8 token. We're going to come back to that in a second. When you invest in the company, you're actually funding their recovery efforts, treasure hunting and recovery efforts. And what happens is when they find stuff, they'll actually bring it in. Then they auction off what they have found. So they auction off some of the artifacts and they auction them where you can actually pay for these artifacts using your PO8 tokens. So it's all based on blockchain cryptocurrency. There's no real money, well, except for investing in purchasing the tokens to start with. But instead of buying these archeological finds with cash, you use cryptocurrency. So those are a couple of examples of how supply chain issues can be addressed with blockchain approaches. And in the last one, we talked a little bit about PO8 and a PO8 token. So really, we really need to pull the layers of the onion away for that and dig down and let's next talk about what is a cryptocurrency token and how can you make one up from scratch in Ethereum.
+1. Supply chain is a path that products or services take from the producer to the consumer, involving multiple components and organizations.
+2. The components of the supply chain include producers, middlemen, shippers, warehouses, wholesalers, retailers, and consumers.
+3. The traditional supply chain involves multiple intermediaries, leading to increased prices at each level.
+4. Blockchain technology can be applied to supply chains to track and trace the entire process, ensuring transparency and simplifying the exchange of data and information.
+5. Certified Origins Italia is an example of a company using a complex supply chain to provide high-quality and traceable food products, such as premium olive oil.
+6. Natural disasters can disrupt supply chains, making it difficult for relief agencies to deliver goods and services to victims.
+7. Hurricane Dorian is mentioned as an example of a disaster that threatened supply chains needed for recovery efforts.
+8. Blockchain technology has the potential to help address obstacles in traditional supply chain implementations in the context of disaster recovery.
 
 
-#Supply chain project
-Selecting transcript lines in this section will navigate to timestamp in the video
-- Now that we have all of the groundwork laid, we're ready to start really designing our supply chain application. What is it going to look like? What do we need to do? And what do we need the smart contracts to do for us? So, we're going to implement a real supply chain solution. It's going to be very, very simple, it's not going to do a lot, but it will carry out the functions of moving a product from one entity to another along the supply chain. So in order to do this, we're going to write two smart contracts. We're going to have one smart contract to define a token we're going to use for payments. And then we're going to have another smart contract, which will actually do the asset tracking and management. So we had two different functions or two different classes of functionality, we're going to put it into two different smart contracts. Each supply chain link, or each entity or participant in the supply chain, provides a service. So we have a producer that produces a product, then we have a carrier perhaps or we have a supplier that then moves the product from one place to another until it finally get to the actual consumer. So we have all these links in the supply chain. We're shipping, we're storing in warehouses, we're shelving at retailers, and then the of course the consumer actually buys it. So each supply chain participant, is in business to make money. So every time we change ownership from one link to another in the supply chain, there needs to be some sort of payment. So what we've chosen to do, is use Ethereum for these payments. And we're going to define a token that can be used in the future at every step of the process to transfer value, and they transfer the value by paying for it with a token. So the second smart contract is going to manage assets, but there's a problem here. Ethereum them can't manage physical assets. It can only manage digital assets. So, we need to be very careful with this, this cyber-physical relationship. And what that means is, that when I add data to the blockchain, it is that data that we're actually managing, not technically what that data represents, because the real world can deviate from the blockchain. All right, here's an example. You go to an airline, you basically going to take a flight. When you check your bags, you walk up to the counter, you provide your boarding pass, your ID, and you give them your bag. At that point, the agent is going to print out a tag for your bag hopefully put that tag on your bag and then throw it in the back on the conveyors belt and it bounces around and goes somewhere. Hopefully when you get off your flight at the destination airport, you go stand for a little while. And eventually, little conveyor goes round around, your bag appears, it's all magic. But what happens is, the data system for the airlines, are not tracking your bag at all. They're tracking the data that is used to print the tag for your bag. And that's a big difference. And here's why. This literally happened to me last year, I went to an airport. I checked in the two gate agents next to one another, oh, not the gate, the agents up front, were talking to one another, they're carrying on this really interesting conversation and barely paying attention to the customers. So I checked in, and this gentleman checked in next to me. What happened was, the gate agents were so busy chatting, they printed off my boarding pass and my ticket for my bag and placed it on the other gentleman's bag. They printed off the ticket or the tag for his bag and put it on mine. Now think about that. When the bags went downstairs and the baggage handlers scanned it, they didn't care whose bag it was, they only cared what tag was on it. My bag instead of ending up in Atlanta, Georgia, ended up somewhere in rural Mexico. It took me a week to get my bag back. The tag was there, the tag made it to Atlanta, but it was attached to somebody else's bag. That is because the cyber physical relationship broke down. Same thing happens in blockchain. If you're not careful, you have to have procedures to make sure that when you enter data, it represents something in the real world. So here's some examples of how you can associate physical assets with digital mirror assets. You can engrave an ID, that's a great way. If you have a physical good that you can engrave the serial number on, it's part of the physical device, that's a good way to make sure that it doesn't get separated and you don't get the wrong one on it, but it's expensive and slow because you physically have to X something. You can attach a printed label onto a product that can be unique for each item. It's useful for a lot of different products, but you have to be careful the tag or the label can be damaged, or it can be lost, it may actually come off. So that's one of the cons. You could attach a printed label to a box of products, 'cause what if you're shipping, let's say, well, we'll go back to the corn. I have a bushel of corn, you don't want to label every ear of corn, you may have to label a box of corn. That's fast for batch products, but you have to then have procedures 
+# Supply chain challenges and blockchain solutions
+
+1. Lack of transparency: In traditional supply chains, data is often siloed within each organization, limiting visibility for other participants. Blockchain provides a transparent and shared ledger where every transaction and movement of products or services is recorded. All participants can view the data, ensuring transparency throughout the supply chain.
+
+2. Lack of traceability: Without transparent data, tracing the origin and journey of a product becomes difficult. Blockchain enables end-to-end traceability by recording every transaction and movement on the decentralized ledger. Participants can track a product's current location and trace its entire history back to the original producer.
+
+3. Time lag: Physical transfers in the supply chain often encounter delays, causing discrepancies between the timing of product movements and data updates. With blockchain and smart contracts, transactions can be automated, reducing human interaction and processing time. This enables real-time updates and eliminates the need to wait for data processing during specific work hours.
+
+4. Data inconsistency and loss: Data inconsistencies and loss can occur when transferring data between different organizations and systems. By using blockchain, all participants enter and access data through the smart contract interface, ensuring consistency throughout the supply chain. Data is securely stored on the blockchain, reducing the risk of loss or tampering.
+
+5. Non-standard and unavailable status tracking: Traditional supply chains often lack a standardized approach for tracking the status of products or services. Blockchain addresses this by providing a unified and accessible platform. Participants can query the blockchain to obtain real-time information about the location and status of a product, regardless of which organization or step in the supply chain they are involved with.
+
+Overall, blockchain technology offers transparency, traceability, reduced time lag, data consistency, and standardized tracking capabilities, effectively addressing the challenges faced in supply chain implementations.
+
+
+
+# Blockchain solution examples
+
+1. Certified Origins Italia:
+   - Producer of high-quality extra-virgin olive oil.
+   - Challenges in the olive oil industry with fraud and authenticity.
+   - Implemented blockchain solution with Oracle to boost consumer confidence.
+   - Customers can use a mobile app to trace every bottle of olive oil back to its origin.
+
+2. Disaster Recovery Example:
+   - PO8, a Bahama-based blockchain company, raising crypto for Hurricane Dorian relief.
+   - PO8 is a blockchain ecosystem for marine archeology and treasure hunting.
+   - Investors can buy PO8 tokens to fund recovery efforts.
+   - Found artifacts are auctioned off, and buyers can use PO8 tokens for purchases.
+
+3. Addressing Supply Chain Issues with Blockchain:
+   - Blockchain provides solutions to challenges in supply chain management.
+   - Certified Origins Italia's blockchain implementation enhances consumer trust.
+   - PO8's blockchain approach enables fundraising and artifact purchases using cryptocurrency.
+
+4. Introduction to Cryptocurrency Tokens:
+   - Explanation of PO8 tokens as a form of cryptocurrency.
+   - Tokens can be used to invest in PO8 and purchase artifacts in the auction.
+   - Ethereum mentioned as the blockchain platform used to create tokens.
+
+
+# Supply chain project
+
+1. Introduction:
+   - Purpose: Developing a Supply Chain Application on the Blockchain.
+   - Goal: Connect producers to consumers, manage products and services, reduce costs, offer transparency, and visibility.
+
+2. Data Types:
+   - Assets: Products that can be bought by consumers.
+   - Participants: Entities involved in the supply chain (manufacturers, suppliers, shippers, and consumers).
+   - Ownership: Determines the current participant who owns a product at a certain point in time.
+   - Payment Token: Used for participants to pay each other during ownership transfers.
+
+3. Functions (Token Side):
+   - Initialize Tokens: Create a pool of payment tokens.
+   - Transfer Tokens: Allow participants to transfer tokens among themselves.
+   - Authorize Token Payments: Enable token transfers on behalf of another participant.
+
+
+# Designing Your supply-chain App
+
+1. Objective: Develop a Supply Chain Application on the Blockchain to connect producers to consumers, manage products and services, reduce costs, and provide transparency and visibility.
+
+2. Data Storage: Store data related to the supply chain application.
+
+3. Types of Data:
+   a. Assets: Products that can be bought by consumers.
+   b. Participants: Entities involved in the supply chain, such as manufacturers, suppliers, shippers, and consumers.
+   c. Ownership: Define ownership structure to track product ownership over time.
+   d. Payment Tokens: Tokens used by participants for payment as ownership changes.
+
+4. Smart Contract Components:
+   a. Data Items (Nouns): Assets, participants, ownership, payment tokens.
+   b. Functions (Verbs): Capabilities to perform actions in the supply chain.
+
+5. Token Capabilities:
+   a. Initialize Tokens: Function to set up an initial pool of payment tokens.
+   b. Transfer Tokens: Function to enable token transfers among participants.
+   c. Authorized Token Payments: Function to authorize token transfers on behalf of another agent.
+
+6. Supply Chain Capabilities:
+   a. Add and Update Participants: Function to include new participants and update participant information.
+   b. Move Products: Function to facilitate the movement of products along the supply chain.
+   c. Add and Update Assets: Function to add and update information related to the products being tracked.
+   d. Asset Tracking: Separate functions to track the current location of a product and trace its provenance.
+
+7. Purpose: Achieve cost reduction, transparency, and efficient management of products and services in the supply chain.
+
+8. Conclusion: Understand the objectives, data elements, and functions required, and start working on implementing the code for the supply chain application.
+
+ # Token Smart Contract Details
+
+1. Introduction:
+   - Purpose: Create a payment token smart contract for the supply chain application.
+   - Reasons for creating a token: Demonstrate token creation and restrict participation to authorized supply chain participants.
+
+2. Token Use Analogy: Drawing a parallel to arcade tokens, where specific tokens are required to access games, and general currency is used for other purchases.
+
+3. Choice of Token Standard: ERC-20 is selected due to its common usage and compatibility with Ethereum wallets.
+
+4. ERC-20 Token Data Items (Minimum):
+   - totSupply: Total number of tokens in circulation.
+   - Name: Descriptive name for the token.
+   - Decimals: Precision used when displaying token amounts.
+   - Symbol: Short identifier for the token.
+   - Balances: Current balance of each participating account mapped to their address.
+   - Allowed: Number of tokens authorized for transfer between accounts mapped to the sender's address.
+
+5. Functions for ERC-20 Token (Mandatory):
+   - totalSupply: Returns the current total number of tokens.
+   - balanceOf: Returns the balance of a specific account.
+   - allowance: Returns the remaining number of tokens allowed to be transferred between accounts.
+   - transfer: Transfers tokens from the owner to a target account.
+   - transferFrom: Transfers tokens from one specific account to another specific account.
+   - approve: Sets the maximum allowed number of tokens that can be transferred between specific accounts.
+
+6. Example of Approve Function: Drawing a parallel to a purchase order where a maximum authorized amount is set for transferring tokens without additional authorization.
+
+7. Conclusion: Explanation of the ERC-20 token's functionality within the supply chain application.
+
+
+ # Supply chain smart contract details
+
+1. Introduction:
+   - Overview of the supply chain smart contract.
+   - Purpose: Manage products, participants, and ownership transfers within the supply chain.
+
+2. Data Structures:
+   - Product Structure:
+     - Attributes: Model number, part number, cost, serial number, etc.
+     - Mapping: Creates a list of products.
+
+   - Participant Structure:
+     - Attributes: Username, password, Ethereum address, etc.
+     - Mapping: Provides a list of participants.
+
+   - Ownership Structure:
+     - Attributes: Product ID, owner ID, transaction time.
+     - Records ownership details at a specific point in time.
+
+3. Global Scalar Variables:
+   - Product ID, participant ID, and owner ID.
+   - Used to uniquely identify products, participants, and owners within the structures.
+
+4. Functionality:
+   - Participant Functions:
+     - AddParticipant: Creates a new participant.
+     - GetParticipant: Retrieves participant information.
+
+   - Product Functions:
+     - AddProduct: Adds a new product.
+     - GetProduct: Retrieves product information.
+
+   - Ownership Functions:
+     - NewOwner: Transfers ownership of a product.
+     - GetProvenance: Retrieves the chain of ownership records for a product.
+     - GetOwnership: Retrieves ownership record for a specific point in time.
+
+   - Authentication Function:
+     - AuthenticateParticipant: Validates participant credentials for security purposes.
+
+5. Note on Deletion:
+   - Participants and products are not deleted, but can be disabled or made inactive in a real application.
+
+6. Conclusion:
+   - Summary of the data structures and functionality within the supply chain smart contract.
+
+ 
 
