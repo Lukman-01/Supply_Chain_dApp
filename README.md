@@ -1,5 +1,4 @@
-# Supply_Chain_dApp
-                            # Supply Chain White Papper
+# Supply_Chain_dApp White Papper
 
 # What is the supply chain?
 
