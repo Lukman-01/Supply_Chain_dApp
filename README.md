@@ -176,8 +176,7 @@ Overall, blockchain technology offers transparency, traceability, reduced time l
 5. Note on Deletion:
    - Participants and products are not deleted, but can be disabled or made inactive in a real application.
 
-6. Conclusion:
-   - Summary of the data structures and functionality within the supply chain smart contract.
+ 
 
  
 

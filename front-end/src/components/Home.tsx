@@ -1,19 +1,22 @@
 import React from 'react';
-import { Link } from 'react-router-dom';
 
 const Home: React.FC = () => {
   return (
-    <div className="flex flex-col items-center">
-      <h2 className="text-3xl font-bold mb-4">Welcome to My App</h2>
-      <p className="text-xl text-center mb-8">
-        This DApp allows you to manage your supply chain efficiently. Register to get started.
-      </p>
-      <Link
-        to="/register"
-        className="bg-green-500 hover:bg-green-600 py-2 px-4 rounded-md text-white"
-      >
-        Register
-      </Link>
+    <div className="flex flex-col justify-center items-center h-screen bg-slate-900">
+      <div className='w-4/5 mx-auto'>
+        <h1 className="text-center text-2xl md:text-4xl lg:text-6xl font-bold text-white mb-8">
+          Welcome to SupdApp
+        </h1>
+        <p className="text-xl md:text-2xl lg:text-3xl text-white text-center mb-12">
+        SupdApp is a decentralized application that utilizes blockchain technology to enhance transparency, traceability, and efficiency in the management of supply chain processes.
+        </p>
+        <p className="text-xl md:text-2xl lg:text-3xl text-white text-center mb-12">
+          Track and manage your supply chain with ease.
+        </p>
+      </div>
+      <button className="bg-white hover:bg-gray-100 text-gray-800 font-semibold py-3 px-6 rounded-full shadow-lg">
+        Get Started
+      </button>
     </div>
   );
 };
