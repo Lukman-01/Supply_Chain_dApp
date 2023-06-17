@@ -37,6 +37,10 @@ contract SupCoin is IERC20, IERC20Metadata, Ownable {
      * @dev Constructor function.
      * It initializes the token contract with the provided initial supply of tokens.
      * The initial supply is assigned to the contract deployer.
+     * @param _name The name of the token.
+     * @param _symbol The symbol of the token.
+     * @param _decimals The number of decimals for token display.
+     * @param initialSupply The initial supply of tokens.
      */
     constructor(string memory _name, string memory _symbol, uint8 _decimals, uint256 initialSupply) {
         require(initialSupply > 0, "SupCoin: initial supply cannot be zero");
@@ -93,6 +97,7 @@ contract SupCoin is IERC20, IERC20Metadata, Ownable {
      */
     function mint(address account, uint256 amount) public onlyOwner {
         require(account != address(0), "SupCoin: mint to the zero address");
+        require(amount > 0, "SupCoin: mint amount must be greater than zero");
 
         totalSupply = totalSupply.add(amount);
         balanceOf[account] = balanceOf[account].add(amount);
@@ -106,7 +111,12 @@ contract SupCoin is IERC20, IERC20Metadata, Ownable {
      * @param amount The amount of tokens to burn.
      */
     function burn(uint256 amount) public onlyOwner {
-        _burn(msg.sender, amount);
+        require(amount > 0, "SupCoin: burn amount must be greater than zero");
+        require(balanceOf[msg.sender] >= amount, "SupCoin: burn amount exceeds balance");
+
+        balanceOf[msg.sender] = balanceOf[msg.sender].sub(amount);
+        totalSupply = totalSupply.sub(amount);
+        emit Transfer(msg.sender, address(0), amount);
     }
 
     /**
@@ -138,20 +148,4 @@ contract SupCoin is IERC20, IERC20Metadata, Ownable {
         allowance[owner][spender] = amount;
         emit Approval(owner, spender, amount);
     }
-
-    /**
-     * @dev Internal function to burn tokens from the specified account.
-     * @param account The address of the account.
-     * @param amount The amount of tokens to burn.
-     */
-    function _burn(address account, uint256 amount) internal {
-        require(account != address(0), "SupCoin: burn from the zero address");
-        require(balanceOf[account] >= amount, "SupCoin: burn amount exceeds balance");
-
-        balanceOf[account] = balanceOf[account].sub(amount);
-        totalSupply = totalSupply.sub(amount);
-        emit Transfer(account, address(0), amount);
-    }
 }
-
-
