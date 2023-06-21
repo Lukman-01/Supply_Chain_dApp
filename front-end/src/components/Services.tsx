@@ -44,8 +44,8 @@ const Services: React.FC = () => {
   return (
     <div>
       <div className='w-4/5 mx-auto'>
-        <h1 className="text-center text-2xl md:text-4xl lg:text-6xl text-white mb-8 text-gray-700 pt-10">
-          Our Services
+        <h1 className="text-center text-2xl md:text-4xl lg:text-6xl text-white mb-8 text-slate-900 pt-10">
+          Our App Features
         </h1>
       </div>
       <div className="grid grid-cols-1 md:grid-cols-2 lg:grid-cols-3 gap-4 w-4/5 mx-auto pt-10 pb-10">

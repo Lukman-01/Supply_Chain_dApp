@@ -3,7 +3,7 @@ import { HiMenuAlt4 } from "react-icons/hi";
 import { Link, NavLink, BrowserRouter as Router, Routes, Route } from 'react-router-dom';
 import Home from './Home';
 import About from './About';
-import Services from './Services';
+ 
 
 import S2 from '../assets/S2.png';
 
@@ -45,8 +45,8 @@ const Navbar: React.FC = () => {
               </NavLink>
             </li>
             <li className="mx-4 my-6 md:my-0">
-              <NavLink to="/Services" className="text-xl hover:text-cyan-500 duration-500" activeClassName="active-link">
-                Services
+              <NavLink to="/Market" className="text-xl hover:text-cyan-500 duration-500" activeClassName="active-link">
+                Market
               </NavLink>
             </li>
             <li className="mx-4 my-6 md:my-0">
@@ -66,7 +66,7 @@ const Navbar: React.FC = () => {
         <Routes>
           <Route path="/" element={<Home />} />
           <Route path="/about" element={<About />} />
-          <Route path="/services" element={<Services />} />
+          {/* <Route path="/services" element={<Services />} /> */}
           {/* <Route path="/contact" element={<Contact />} /> */}
         </Routes>
       </Router>
