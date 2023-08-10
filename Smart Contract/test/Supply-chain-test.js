@@ -64,5 +64,12 @@ describe("SupplyChain", function () {
     expect(ownershipDetails.ownerId).to.equal(1);
   });
   
+  it("Should authenticate a participant", async function () {
+    await supplyChain.addParticipant("Alice", "password", ethers.constants.AddressZero, "Manufacturer");
+    const isAuthenticated = await supplyChain.authenticateParticipant(0, "Alice", "password", "Manufacturer");
+
+    expect(isAuthenticated).to.equal(true);
+  });
+
   
 });
