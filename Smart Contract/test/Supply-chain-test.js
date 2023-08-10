@@ -18,4 +18,16 @@ describe("SupplyChain", function () {
     expect(participant.participantType).to.equal("Manufacturer");
   });
 
+  it("Should add a product", async function () {
+    await supplyChain.addParticipant("Manufacturer", "password", ethers.constants.AddressZero, "Manufacturer");
+    await supplyChain.addProduct(0, "Model123", "Part456", "Serial789", 100);
+
+    const product = await supplyChain.getProduct(0);
+
+    expect(product.modelNumber).to.equal("Model123");
+    expect(product.partNumber).to.equal("Part456");
+    expect(product.serialNumber).to.equal("Serial789");
+    expect(product.cost).to.equal(100);
+  });
+
 });
