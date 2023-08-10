@@ -52,5 +52,17 @@ describe("SupplyChain", function () {
     expect(productTrack.length).to.equal(1);
   });
 
+  it("Should retrieve ownership details", async function () {
+    await supplyChain.addParticipant("Manufacturer", "password", ethers.constants.AddressZero, "Manufacturer");
+    await supplyChain.addParticipant("Supplier", "password", ethers.constants.AddressZero, "Supplier");
+    await supplyChain.addProduct(0, "Model123", "Part456", "Serial789", 100);
+
+    await supplyChain.newOwner(0, 1, 0);
+    const ownershipDetails = await supplyChain.getOwnership(0);
+
+    expect(ownershipDetails.productId).to.equal(0);
+    expect(ownershipDetails.ownerId).to.equal(1);
+  });
+  
   
 });
