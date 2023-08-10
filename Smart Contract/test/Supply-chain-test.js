@@ -10,4 +10,12 @@ describe("SupplyChain", function () {
     await supplyChain.deployed();
   });
 
+  it("Should add a participant", async function () {
+    await supplyChain.addParticipant("Alice", "password", ethers.constants.AddressZero, "Manufacturer");
+    const participant = await supplyChain.getParticipant(0);
+
+    expect(participant.userName).to.equal("Alice");
+    expect(participant.participantType).to.equal("Manufacturer");
+  });
+
 });
