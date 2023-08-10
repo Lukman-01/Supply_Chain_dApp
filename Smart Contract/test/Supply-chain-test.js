@@ -71,5 +71,11 @@ describe("SupplyChain", function () {
     expect(isAuthenticated).to.equal(true);
   });
 
+  it("Should fail to authenticate a participant with incorrect credentials", async function () {
+    await supplyChain.addParticipant("Alice", "password", ethers.constants.AddressZero, "Manufacturer");
+    const isAuthenticated = await supplyChain.authenticateParticipant(0, "Alice", "wrong-password", "Manufacturer");
+
+    expect(isAuthenticated).to.equal(false);
+  });
   
 });
