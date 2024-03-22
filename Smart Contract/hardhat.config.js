@@ -1,12 +1,16 @@
-require("@nomicfoundation/hardhat-toolbox");
+require('@nomiclabs/hardhat-waffle');
+require("dotenv").config({ path: ".env" });
 
-/** @type import('hardhat/config').HardhatUserConfig */
+const ALCHEMY_HTTP_URL = process.env.ALCHEMY_HTTP_URL;
+const PRIVATE_KEY = process.env.PRIVATE_KEY;
+
+
 module.exports = {
-  solidity: "0.8.18",
+  solidity: "0.8.0",
   networks: {
-    goerli: {
-      url: 'https://eth-goerli.g.alchemy.com/v2/PtOW84EIMyfAaX93sYECGs_QLonqicN8',
-      accounts: ['8431b27ab2ba78ecc97181e3baf0defe507b490a78ecbb7b25f0e4621278d66f'],
+    sepolia: {
+      url: ALCHEMY_HTTP_URL,
+      accounts: [PRIVATE_KEY],
     },
   },
 };
