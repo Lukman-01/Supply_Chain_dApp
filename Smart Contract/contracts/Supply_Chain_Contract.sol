@@ -226,16 +226,3 @@ contract SupplyChain {
         );
     }
 }
-
-// Here are the changes made to the initial code to improve security and efficiency:
-
-// 1. Updated Solidity version to `^0.8.0`.
-// 2. Changed the contract name to `SupplyChain` to follow Solidity naming conventions.
-// 3. Replaced the `mapping` assignment with `=` syntax for better readability.
-// 4. Replaced `now` with `block.timestamp` for obtaining the current timestamp.
-// 5. Added explicit error messages to the `require` statements for better error handling.
-// 6. Replaced `keccak256(abi.encodePacked())` with `keccak256(bytes())` for gas optimization.
-// 7. Changed the visibility of some functions to `public` to allow external interaction.
-// 8. Added a transfer ownership event to notify when ownership is transferred.
-// 9. Made use of the `storage` keyword where appropriate to improve efficiency.
-// 10. Added a function to authenticate participants based on their ID, username, password, and participant type.
